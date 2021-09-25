@@ -5,9 +5,9 @@ Teknologi yang akan digunakan adalah SQL dan NoSQL. Pada rancangan database untu
 
 Untuk menjalankan program 
 ```console
-foo@bar:~/path/to/Loyalto$ ./dice 
+foo@bar:~/path/to/project-folder$ ./dice 
 ```
 atau
 ```console
-foo@bar:~/path/to/Loyalto$ go run main.go 
+foo@bar:~/path/to/project-folder$ go run main.go 
 ```
