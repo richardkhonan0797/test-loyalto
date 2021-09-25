@@ -70,10 +70,6 @@ func evaluate(players *[]Player, scoreboards *[]Scoreboard) {
 
 	for i := 0; i < len(*players); i++ {
 		if len((*players)[i].dice) == 0 {
-			// if (*players)[i].points > result["points"] {
-			// 	result["player"] = (*players)[i].order
-			// 	result["points"] = (*players)[i].points
-			// }
 
 			for j := 0; j < len(*scoreboards); j++ {
 				if (*scoreboards)[j].player == (*players)[i].order {
